@@ -1,6 +1,7 @@
 html *{
-    padding:0;
     margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 body{
     background-color:black;
@@ -12,6 +13,11 @@ body{
     font-size:14px;
     line-height:20px;
     
+}
+iframe{
+    width:100%;
+    max-width:100%;
+    display:block;
 }
 #layout{
     max-width:640px;
@@ -108,5 +114,10 @@ footer{
         padding:15px;
     }
 
+}
+img{
+    max-width:100%;
+    height:auto;
+    display:block;
 }
 
